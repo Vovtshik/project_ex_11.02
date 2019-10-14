@@ -41,7 +41,7 @@ void str_cont_word(vector<string>& data, string& word)
             {
                 if(w == word)
                 {
-                    cout << "The string: \"" << s << "\" contains the word - " << w << "; line number - " << i << '\n';
+                    cout << "The string: \"" << s << "\" contains the word - \"" << w << "\"; line number - " << i << '\n';
                 }
             }
         }
