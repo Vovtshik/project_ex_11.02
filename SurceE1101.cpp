@@ -11,7 +11,10 @@ int main()
     cout << "Enter a file name for reading text:\n";
     cin >> name_file;
     in_file_text(name_file, data); 
-    
+    cout << "Enter a word whose presence will be checked in a text file: " << '\n';
+    string word;
+    cin >> word;
+    str_cont_word(data, word);
     return 0;
 }
 
