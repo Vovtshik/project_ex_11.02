@@ -5,7 +5,6 @@ void str_cont_word(vector<string>& data, string& word);
 
 int main()
 {
-    setlocale(LC_ALL, "Rus");
     string name_file;
     vector<string> data;
     cout << "Enter a file name for reading text:\n";
