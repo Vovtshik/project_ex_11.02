@@ -26,3 +26,23 @@ void in_file_text(string& name_file, vector<string>& data)
         data.push_back(temp_str);
     }
 }
+
+void str_cont_word(vector<string>& data, string& word)
+{
+    int i = 1;
+    for(string& s: data)
+    {
+        {
+            istringstream is{s};
+            for(string w; is >> w;)
+            {
+                if(w == word)
+                {
+                    cout << "The string: " << s << " contains the word - " << w << "; line number - " << i << '\n';
+                    ++i;
+                }
+            }
+        }
+        
+    }
+}
