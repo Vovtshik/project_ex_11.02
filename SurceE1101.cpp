@@ -1,6 +1,7 @@
 #include "std_lib_facilities.h"
 
 void in_file_text(string& name_file, vector<string>& data);
+void str_cont_word(vector<string>& data, string& word);
 
 int main()
 {
